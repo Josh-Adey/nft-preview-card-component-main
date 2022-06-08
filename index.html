@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@600&family=Red+Hat+Display:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" >
+  <title>Task 5 | NFT preview card component</title>
+
+</head>
+<body>
+<center>
+  <div class="main-container" >
+       <a href="#"> <img class="image-equilibrium" src="images/image-equilibrium.jpg" width="300px"> </a>
+       <h2> <a href="#"> Equilibrium #3429 </a> </h2>
+       <p class="primary"> Our Equilibrium collection promotes balance and calm.</p>
+
+       <div class="data" >
+         <span class="img-text-wrapper left">
+            <img class="icon-ethereum"  src="images/icon-ethereum.svg">
+            <p class="token-value"> <a href="#"> 0.041ETH </a> </p>
+         </span>
+         <span class="img-text-wrapper right">
+            <img class="icon-clock" src="images/icon-clock.svg">
+             <p class="count-down"> 3 days left </p>
+          </span>
+       </div>
+
+       <hr>
+
+       <div class="profile">
+           <img class="avatar" src="images/image-avatar.png">
+           <p> Creation of <a href="#" class="profile-link"> Jules Wyvern </a> </p>
+       </div>
+
+  </div>
+</center>
+<footer>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="#">Joshua  Adeoye</a>.
+</footer>
+</body>
+
+<script>
+      const mainContainer = document.querySelectorAll(".image-equilibrium")
+
+      mainContainer.forEach(portfolioItem => {
+           imageEquilibrium.addEventListener('mouseover', () => {
+               imageEquilibrium.childNodes[1].classList.add('img-darken');
+           })
+
+            imageEquilibrium.addEventListener('mouseout', () => {
+               imageEquilibrium.childNodes[1].classList.remove('img-darken');
+           })
+      })
+</script>
+</html>
