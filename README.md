@@ -23,8 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/active-states.png)
+![Image Preview](./design/active-states.png)
 
+
+### Link
+
+[Site preview:] (https://josh-adey.github.io/nft-preview-card-component-main/)
 
 ### Built with
 
