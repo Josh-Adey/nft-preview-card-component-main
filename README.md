@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Image Preview](/assets/design/active-states.png)
+![Image Preview](/design/Mobile-design.png)
 
 
 ### Link
