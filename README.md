@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Link
 
-[Site preview:] (https://josh-adey.github.io/nft-preview-card-component-main/)
+[Site preview](https://josh-adey.github.io/nft-preview-card-component-main/)
 
 ### Built with
 
